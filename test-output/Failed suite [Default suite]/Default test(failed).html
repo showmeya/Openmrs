@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>TestNG:  Default test(failed)</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test(failed)</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun May 07 11:24:03 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>89 seconds (89387 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.openmrs.testcase.TC_Register.PatientName()'><b>PatientName</b><br>Test class: com.openmrs.testcase.TC_Register<br>Parameters: Test, Calab, 10, February, 1996, Test, Main Street, Newyork, NY, USA, 10022, 8877665544, Name: Test, Calab, Gender: Male, Birthdate: 10, February, 1996, Address: Test, Main Street, Newyork, NY, USA, 10022, Phone Number: 8877665544, Test<br/>
+<a href="#Output-1062714541" onClick='toggleBox("Output-1062714541", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1062714541" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1062714541">
+Clicked on this element ---> Proxy element for: DefaultElementLocator 'By.xpath: (//a[@type='button'])[4]'<br/>
+Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (605dce4524782069fdc7bea3859ab97a)] -> xpath: //button[@id='next-button']]<br/>
+Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (605dce4524782069fdc7bea3859ab97a)] -> xpath: //option[@value='M']]<br/>
+Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (605dce4524782069fdc7bea3859ab97a)] -> xpath: //button[@id='next-button']]<br/>
+Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (605dce4524782069fdc7bea3859ab97a)] -> xpath: //button[@id='next-button']]<br/>
+Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (605dce4524782069fdc7bea3859ab97a)] -> xpath: //button[@id='next-button']]<br/>
+Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (605dce4524782069fdc7bea3859ab97a)] -> xpath: //button[@id='next-button']]<br/>
+Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (605dce4524782069fdc7bea3859ab97a)] -> xpath: //button[@id='next-button']]<br/>
+Trying to compare actual text== -->  Name: Test, Calab  <-- expected text== -->  Name: Test, Calab<br/>
+Trying to compare actual text== -->  Gender: Male  <-- expected text== -->  Gender: Male<br/>
+Trying to compare actual text== -->  Birthdate: 10, February, 1996  <-- expected text== -->  Birthdate: 10, February, 1996<br/>
+Trying to compare actual text== -->  Address: Test, Main Street, Newyork, NY, USA, 10022  <-- expected text== -->  Address: Test, Main Street, Newyork, NY, USA, 10022<br/>
+Trying to compare actual text== -->  Phone Number: 8877665544  <-- expected text== -->  Phone Number: 8877665544<br/>
+Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (605dce4524782069fdc7bea3859ab97a)] -> xpath: //input[@id='submit']]<br/>
+Trying to compare actual text== -->  Test  <-- expected text== -->  Test<br/>
+Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (605dce4524782069fdc7bea3859ab97a)] -> xpath: //div[contains(text(),'Start Visit')]]<br/>
+Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (605dce4524782069fdc7bea3859ab97a)] -> xpath: //button[@id='start-visit-with-visittype-confirm']]<br/>
+Clicked on this element ---> Proxy element for: DefaultElementLocator 'By.xpath: //a[@id='attachments.attachments.visitActions.default']'<br/>
+</div>
+</td>
+<td></td>
+<td>52</td>
+<td>com.openmrs.testcase.TC_Register@e25b2fe</td></tr>
+</table><p>
+</body>
+</html>

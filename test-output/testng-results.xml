@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath:  //li[@id='Inpatient Ward']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='loginButton']']]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> Proxy element for: DefaultElementLocator 'By.xpath: (//a[@type='button'])[4]']]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //button[@id='next-button']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //option[@value='M']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //button[@id='next-button']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //button[@id='next-button']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //button[@id='next-button']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //button[@id='next-button']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //button[@id='next-button']]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to compare actual text== -->  Name: Test, Calab  <-- expected text== -->  Name: Test, Calab]]>
+    </line>
+    <line>
+      <![CDATA[Trying to compare actual text== -->  Gender: Male  <-- expected text== -->  Gender: Male]]>
+    </line>
+    <line>
+      <![CDATA[Trying to compare actual text== -->  Birthdate: 10, February, 1996  <-- expected text== -->  Birthdate: 10, February, 1996]]>
+    </line>
+    <line>
+      <![CDATA[Trying to compare actual text== -->  Address: Test, Main Street, Newyork, NY, USA, 10022  <-- expected text== -->  Address: Test, Main Street, Newyork, NY, USA, 10022]]>
+    </line>
+    <line>
+      <![CDATA[Trying to compare actual text== -->  Phone Number: 8877665544  <-- expected text== -->  Phone Number: 8877665544]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='submit']']]>
+    </line>
+    <line>
+      <![CDATA[Trying to compare actual text== -->  Test  <-- expected text== -->  Test]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //div[contains(text(),'Start Visit')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //button[@id='start-visit-with-visittype-confirm']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> Proxy element for: DefaultElementLocator 'By.xpath: //a[@id='attachments.attachments.visitActions.default']']]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Test Calab']']]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //ul[@class='float-left d-none d-lg-block']//div[@class='col-11 col-lg-10'][normalize-space()='End Visit']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //div[@id='end-visit-dialog']//button[@class='confirm right'][normalize-space()='Yes']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //div[contains(text(),'Delete Patient')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //div[@id='delete-patient-creation-dialog']//button[@class='confirm right'][normalize-space()='Confirm']]]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Exception Occured in --> click <--  method of Base Class]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="106149" started-at="2023-05-08T02:58:12Z" finished-at="2023-05-08T02:59:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="106149" started-at="2023-05-08T02:58:12Z" finished-at="2023-05-08T02:59:58Z">
+      <class name="com.openmrs.testcase.TC_Register">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.openmrs.testcase.TC_Register@17c1bced]" name="setUp" is-config="true" duration-ms="5942" started-at="2023-05-08T08:28:12Z" finished-at="2023-05-08T08:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTo()[pri:0, instance:com.openmrs.testcase.TC_Register@17c1bced]" name="loginTo" is-config="true" duration-ms="17253" started-at="2023-05-08T08:28:18Z" finished-at="2023-05-08T08:28:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath:  //li[@id='Inpatient Ward']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='loginButton']']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTo -->
+        <test-method status="PASS" signature="PatientName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.openmrs.testcase.TC_Register@17c1bced]" name="PatientName" duration-ms="78428" started-at="2023-05-08T08:28:35Z" data-provider="RegisterPatientName" finished-at="2023-05-08T08:29:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Calab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[February]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1996]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Main Street]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Newyork]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[10022]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[8877665544]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Name: Test, Calab]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Gender: Male]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Birthdate: 10, February, 1996]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Address: Test, Main Street, Newyork, NY, USA, 10022]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Phone Number: 8877665544]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[TEST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on this element ---> Proxy element for: DefaultElementLocator 'By.xpath: (//a[@type='button'])[4]']]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //button[@id='next-button']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //option[@value='M']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //button[@id='next-button']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //button[@id='next-button']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //button[@id='next-button']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //button[@id='next-button']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //button[@id='next-button']]]]>
+            </line>
+            <line>
+              <![CDATA[Trying to compare actual text== -->  Name: Test, Calab  <-- expected text== -->  Name: Test, Calab]]>
+            </line>
+            <line>
+              <![CDATA[Trying to compare actual text== -->  Gender: Male  <-- expected text== -->  Gender: Male]]>
+            </line>
+            <line>
+              <![CDATA[Trying to compare actual text== -->  Birthdate: 10, February, 1996  <-- expected text== -->  Birthdate: 10, February, 1996]]>
+            </line>
+            <line>
+              <![CDATA[Trying to compare actual text== -->  Address: Test, Main Street, Newyork, NY, USA, 10022  <-- expected text== -->  Address: Test, Main Street, Newyork, NY, USA, 10022]]>
+            </line>
+            <line>
+              <![CDATA[Trying to compare actual text== -->  Phone Number: 8877665544  <-- expected text== -->  Phone Number: 8877665544]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='submit']']]>
+            </line>
+            <line>
+              <![CDATA[Trying to compare actual text== -->  Test  <-- expected text== -->  Test]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //div[contains(text(),'Start Visit')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //button[@id='start-visit-with-visittype-confirm']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> Proxy element for: DefaultElementLocator 'By.xpath: //a[@id='attachments.attachments.visitActions.default']']]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Test Calab']']]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //ul[@class='float-left d-none d-lg-block']//div[@class='col-11 col-lg-10'][normalize-space()='End Visit']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //div[@id='end-visit-dialog']//button[@class='confirm right'][normalize-space()='Yes']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //div[contains(text(),'Delete Patient')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on this element ---> [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //div[@id='delete-patient-creation-dialog']//button[@class='confirm right'][normalize-space()='Confirm']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PatientName -->
+        <test-method status="FAIL" signature="logOut()[pri:0, instance:com.openmrs.testcase.TC_Register@17c1bced]" name="logOut" is-config="true" duration-ms="0" started-at="2023-05-08T08:29:53Z" finished-at="2023-05-08T08:29:53Z">
+          <exception class="java.util.NoSuchElementException">
+            <message>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //a[@href='/openmrs/appui/header/logout.action?successUrl=openmrs']] Element is still not clickable]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException: [[ChromeDriver: chrome on WINDOWS (86e0b113179ff4101669a385ec763e5d)] -> xpath: //a[@href='/openmrs/appui/header/logout.action?successUrl=openmrs']] Element is still not clickable
+	at com.openmrs.testcase.BaseClass.click(BaseClass.java:118)
+	at com.openmrs.testcase.BaseClass.logout(BaseClass.java:55)
+	at com.openmrs.testcase.TC_Register.logOut(TC_Register.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[Exception Occured in --> click <--  method of Base Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- com.openmrs.testcase.TC_Register -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

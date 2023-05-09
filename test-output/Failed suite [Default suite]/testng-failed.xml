@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]">
+  <test name="Default test(failed)(failed)">
+    <classes>
+      <class name="com.openmrs.testcase.TC_Register">
+        <methods>
+          <include name="ConfirmPatientDetails" invocation-numbers="0"/>
+          <include name="logOut"/>
+          <include name="PatientDetails" invocation-numbers="0"/>
+          <include name="loginTo"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.openmrs.testcase.TC_Register -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->
